@@ -95,20 +95,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _sofbox_components_sections_v_two_section_title_v_two_section_title_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../sofbox/components/sections/v-two-section-title/v-two-section-title.component */ "./src/app/sofbox/components/sections/v-two-section-title/v-two-section-title.component.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _sofbox_components_card_v_two_progressbar_v_two_progressbar_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../sofbox/components/card/v-two-progressbar/v-two-progressbar.component */ "./src/app/sofbox/components/card/v-two-progressbar/v-two-progressbar.component.ts");
-
 
 
 
 
 function TipsTrick1Component_div_20_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-v-two-progressbar", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const list_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", list_r1.title)("hoverClass", list_r1.hoverClass)("percentage", list_r1.percentage)("animate", list_r1.animate);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 19);
 } }
 class TipsTrick1Component {
     constructor() {
@@ -118,16 +110,16 @@ class TipsTrick1Component {
             description: 'Faff about only a quid blower I don’t want no agro bleeding chimney pot burke tosser cras nice one boot fanny.!'
         };
         this.List = [
-            { title: 'Graphics', animate: 'false', hoverClass: 'purple-hover', percentage: '50' },
-            { title: 'Graphics', animate: 'false', hoverClass: 'org-hover', percentage: '50' },
-            { title: 'Graphics', animate: 'false', hoverClass: 'green-hover', percentage: '50' }
+            { title: 'Shift', animate: 'false', hoverClass: 'purple-hover', percentage: '0' },
+            { title: 'Graphics', animate: 'false', hoverClass: 'org-hover', percentage: '0' },
+            { title: 'Graphics', animate: 'false', hoverClass: 'green-hover', percentage: '0' }
         ];
     }
     ngOnInit() {
     }
 }
 TipsTrick1Component.ɵfac = function TipsTrick1Component_Factory(t) { return new (t || TipsTrick1Component)(); };
-TipsTrick1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TipsTrick1Component, selectors: [["app-tips-trick1"]], decls: 21, vars: 2, consts: [["id", "iq-about", 1, "popup-images", "align-left", "pt-0"], [1, "container"], [1, "row"], [1, "col-lg-6"], [1, "popup-images", "align-left"], ["data-wow-duration", "0.6s", 1, "img-one", "wow", "zoomIn"], ["src", "./assets/sofbox-v2/images/home-1/04.png", "alt", "image1"], [1, "d-block"], ["data-wow-delay", "0.4s", "data-wow-duration", "0.8s", 1, "position-absolute", "img-two", "wow", "zoomIn"], ["src", "./assets/sofbox-v2/images/home-1/05.png", "alt", "image2"], ["data-wow-delay", "0.8s", "data-wow-duration", "1s", 1, "position-absolute", "img-three", "wow", "zoomIn"], ["src", "./assets/sofbox-v2/images/home-1/06.png", "alt", "image3"], [1, "layer_wrap", "iq-objects", "style-two", "left-top"], [1, "iq-objects-02"], ["src", "./assets/sofbox-v2/images/home-1/07.png", "alt", "drive02"], [1, "iq-objects-03"], ["src", "./assets/sofbox-v2/images/home-1/08.png", "alt", "drive02"], [3, "titleSectionProp"], ["class", "col-lg-4", 4, "ngFor", "ngForOf"], [1, "col-lg-4"], [3, "title", "hoverClass", "percentage", "animate"]], template: function TipsTrick1Component_Template(rf, ctx) { if (rf & 1) {
+TipsTrick1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TipsTrick1Component, selectors: [["app-tips-trick1"]], decls: 21, vars: 2, consts: [["id", "iq-about", 1, "popup-images", "align-left", "pt-0"], [1, "container"], [1, "row"], [1, "col-lg-6"], [1, "popup-images", "align-left"], ["data-wow-duration", "0.6s", 1, "img-one", "wow", "zoomIn"], ["src", "./assets/sofbox-v2/images/home-1/04.png", "alt", "image1"], [1, "d-block"], ["data-wow-delay", "0.4s", "data-wow-duration", "0.8s", 1, "position-absolute", "img-two", "wow", "zoomIn"], ["src", "./assets/sofbox-v2/images/home-1/05.png", "alt", "image2"], ["data-wow-delay", "0.8s", "data-wow-duration", "1s", 1, "position-absolute", "img-three", "wow", "zoomIn"], ["src", "./assets/sofbox-v2/images/home-1/06.png", "alt", "image3"], [1, "layer_wrap", "iq-objects", "style-two", "left-top"], [1, "iq-objects-02"], ["src", "./assets/sofbox-v2/images/home-1/07.png", "alt", "drive02"], [1, "iq-objects-03"], ["src", "./assets/sofbox-v2/images/home-1/08.png", "alt", "drive02"], [3, "titleSectionProp"], ["class", "col-lg-4", 4, "ngFor", "ngForOf"], [1, "col-lg-4"]], template: function TipsTrick1Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -157,7 +149,7 @@ TipsTrick1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "app-v-two-section-title", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, TipsTrick1Component_div_20_Template, 2, 4, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, TipsTrick1Component_div_20_Template, 1, 0, "div", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -168,7 +160,7 @@ TipsTrick1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("titleSectionProp", ctx.titleSectionProp);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.List);
-    } }, directives: [_sofbox_components_sections_v_two_section_title_v_two_section_title_component__WEBPACK_IMPORTED_MODULE_1__["VTwoSectionTitleComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _sofbox_components_card_v_two_progressbar_v_two_progressbar_component__WEBPACK_IMPORTED_MODULE_3__["VTwoProgressbarComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NlcnZpY2VzL2NvbXBvbmVudHMvdGlwcy10cmljazEvdGlwcy10cmljazEuY29tcG9uZW50LmNzcyJ9 */"] });
+    } }, directives: [_sofbox_components_sections_v_two_section_title_v_two_section_title_component__WEBPACK_IMPORTED_MODULE_1__["VTwoSectionTitleComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NlcnZpY2VzL2NvbXBvbmVudHMvdGlwcy10cmljazEvdGlwcy10cmljazEuY29tcG9uZW50LmNzcyJ9 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TipsTrick1Component, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
