@@ -248,7 +248,7 @@ Loader
 /*---------------------------------------------------------------------
 Extra class
 ---------------------------------------------------------------------*/
-section { padding: 120px 0; }
+section { padding: 50px 0; }
 .main-content{ overflow-x: hidden;}
 .container-fluid { padding: 0 100px; }
 .overflow ,.main-content.overflow {overflow:visible;}
