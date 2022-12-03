@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///src/assets/images/logo.png"],"names":[],"mappings":";;;;;;;;;;;;;AAAA;AAAe;;;AAAA,6DAA0B,UAA1B","file":"common-es5.js","sourcesContent":["export default __webpack_public_path__ + \"logo.png\";"]}
