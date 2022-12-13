@@ -251,7 +251,7 @@ header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-na
 header .button, header .button-line { margin-top: 0; margin-left: 15px; }
 
 header.iq-gradient .navbar .navbar-nav .nav-item a.active{color: #212529; }
-header.iq-gradient .navbar-nav .nav-item a {color: #ffffff;}
+header.iq-gradient .navbar-nav .nav-item a {color: #0f1010;}
 header.iq-gradient.menu-sticky  {
     background: var(--primary-color);
 }
